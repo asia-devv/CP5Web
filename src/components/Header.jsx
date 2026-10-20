@@ -1,8 +1,8 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <header className="">
+    <header className="flex text-black">
       <h1 className="">Cafeteria <span className="">Dev</span></h1>
       <nav>
         <ul className="">
