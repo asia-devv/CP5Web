@@ -5,3 +5,7 @@
     --background: #F9E0BB;
     --hover: ;
 }
+
+.container-home {
+    background-image: url(../assets/coffe-graos.jpg);
+}
