@@ -1,4 +1,4 @@
-import React from 'react'
+import Card from '../components/card'
 import Imagem1 from '../assets/cafe1.jpg'
 import Imagem2 from '../assets/cafe2.jpg'
 import Imagem3 from '../assets/cafe3.jpg'
@@ -15,13 +15,13 @@ const Produtos = () => {
 
   return (
     <main className="px-[5%] mt-10 mb-16 grow">
-      <h2 className="titulo text-3xl">NOSSO CARDÁPIO</h2>
+      <h2 className="titulo text-3xl text-center mb-7 uppercase">Nosso Cardápio</h2>
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {produtos.map((cafe) => (
           <Card
             key={cafe.id}
             titulo={cafe.titulo}
-            descricao={cafe.desc}
+            desc={cafe.desc}
             imagem={cafe.imagem}
           />
         ))}
