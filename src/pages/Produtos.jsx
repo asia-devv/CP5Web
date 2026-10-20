@@ -14,7 +14,7 @@ const Produtos = () => {
   ];
 
   return (
-    <main className="px-[5%] mt-10 mb-16 grow">
+    <main className="px-[5%] mt-10 mb-16 grow h-screen">
       <h2 className="titulo text-3xl text-center mb-7 uppercase">Nosso Cardápio</h2>
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {produtos.map((cafe) => (

@@ -1,7 +1,7 @@
 
 const Card = ({titulo,desc,imagem}) => {
   return (
-    <div className="bg-[#F9E0BB] rounded-2xl overflow-hidden transition-all duration-300 hover:-trasnlate-y-2 hover: border-4 hover:border-[#C38154]">
+    <div className="bg-[#F9E0BB] rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover: border-4 hover:border-[#C38154]">
         <img src={imagem} alt={titulo} className="w-full h-65 object-cover"/>
 
         <article className="p-4 text-left">
