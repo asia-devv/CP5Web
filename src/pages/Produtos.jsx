@@ -1,4 +1,4 @@
-import React from 'react'
+import Card from '../components/card'
 import Imagem1 from '../assets/cafe1.jpg'
 import Imagem2 from '../assets/cafe2.jpg'
 import Imagem3 from '../assets/cafe3.jpg'
